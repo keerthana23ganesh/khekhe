@@ -8,9 +8,11 @@ public class Employee {
 		System.out.println("valid emp");
 	}else {
             throw new EmployeeNotFoundException();
-            
 }
+    System.out.println("emp not found");      
+
 }
+	
 
 public static void main(String[] args) throws Exception {
 	Employee e=new Employee();
